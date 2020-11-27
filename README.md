@@ -10,3 +10,14 @@
 * [闭包的看法](./code/JavaScript/3、闭包的看法和解析.js)
 
 * [实现一个lodash中的get](./code/JavaScript/4、实现一个lodash中的get.js)
+
+* [递归数组](./code/JavaScript/5、递归数组.js)
+
+* [实现一个继承](./code/JavaScript/6、实现一个继承.js)
+
+* [实现一个jsonp函数](./code/JavaScript/7、实现一个jsonp函数.js)
+ 
+* [实现一个k-diff函数](./code/JavaScript/8、实现一个k-diff函数.js)
+
+* [实现一个react中的reactSafeState](./code/JavaScript/9、实现一个react中的hook.js)
+  
