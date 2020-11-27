@@ -21,3 +21,6 @@
 
 * [实现一个react中的reactSafeState](./code/JavaScript/9、实现一个react中的hook.js)
   
+* [验证一个字符串是否是回文串](./code/JavaScript/10、验证一个字符串是否是回文串.ts)
+  
+* [找到数组中最大的三个数](./code/JavaScript/11、找到数组中最大的三个数.ts)
