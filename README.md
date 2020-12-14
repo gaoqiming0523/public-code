@@ -28,3 +28,7 @@
 * [手写一个截取url参数然后生成map关系映射的函数](./code/JavaScript/14、手写一个截取url参数然后生成map关系映射的函数.js)
 
 * [实现两个Dom，判断其中一个是否为另一个祖先节点](./code/JavaScript/15、实现两个Dom，判断其中一个是否为另一个祖先节点.js)
+
+* [实现柯理化](./code/JavaScript/16、实现add(1)(2)(3).js)
+
+* [实现链式调用](./code/JavaScript/17、实现链式调用.js)
