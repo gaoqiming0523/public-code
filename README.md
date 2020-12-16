@@ -32,3 +32,7 @@
 * [实现柯理化](./code/JavaScript/16、实现add(1)(2)(3).js)
 
 * [实现链式调用](./code/JavaScript/17、实现链式调用.js)
+
+* [实现中划线改为驼峰](./code/JavaScript/18、实现中划线改为驼峰.js)
+
+* [实现一个类的数据劫持](./code/JavaScript/19、实现一个类的数据劫持.js)
