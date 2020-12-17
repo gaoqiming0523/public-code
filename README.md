@@ -36,3 +36,9 @@
 * [实现中划线改为驼峰](./code/JavaScript/18、实现中划线改为驼峰.js)
 
 * [实现一个类的数据劫持](./code/JavaScript/19、实现一个类的数据劫持.js)
+
+* [实现一个埋点组件](./code/JavaScript/20、设计一个页面埋点统计.js)
+
+* [类数组和数组的区别](./code/JavaScript/21、类数组和数组的区别.js)
+  
+* [实现Promise及方法](./code/JavaScript/22、实现Promise及方法.js)
