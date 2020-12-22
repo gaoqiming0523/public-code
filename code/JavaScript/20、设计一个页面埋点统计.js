@@ -67,7 +67,7 @@ function PageView(option) {
   PageView.prototype.setAnalysis = function () {
     let data = this.getAnalysisData();
     if (data.stay_time) {
-      this.closeCb && this.closeCb(data);
+      this.closeCb && this.closeCb(data, window.history.length);
     } else {
       console.error('停留时间计算错误');
     }
