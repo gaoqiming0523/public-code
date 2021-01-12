@@ -48,3 +48,4 @@
 - [最长公共前缀](../code/JavaScript/28、最长公共前缀.js)
 - [有效的括号](../code/JavaScript/29、有效的括号.js)
 - [两个数组的交集](../code/JavaScript/30、两个数组的交集.js)
+- [检查车的攻击范围](../code/JavaScript/32、检查车的攻击范围.js)
