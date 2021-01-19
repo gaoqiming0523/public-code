@@ -60,3 +60,6 @@
 - [最大子序和](../code/JavaScript/41、最大自序和.js)
 - [生成有效的括号](../code/JavaScript/42、生成有效的括号.js)
 - [平衡二叉树](../code/JavaScript/43、平衡二叉树.js)
+- [电话号码生成](../code/JavaScript/44、电话号码生成.js)
+- [组合](../code/JavaScript/45、组合.js)
+- [两数相加](../code/JavaScript/46、两数相加.js)
