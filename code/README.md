@@ -63,3 +63,7 @@
 - [电话号码生成](../code/JavaScript/44、电话号码生成.js)
 - [组合](../code/JavaScript/45、组合.js)
 - [两数相加](../code/JavaScript/46、两数相加.js)
+- [数组整数相加](../code/JavaScript/47、数组整数相加.js)
+- [移除元素](../code/JavaScript/49、移除元素.js)
+- [三数之和](../code/JavaScript/50、三数之和.js)
+- [翻转第 K 层二叉树](../code/JavaScript/51、翻转第k层二叉树.js)
