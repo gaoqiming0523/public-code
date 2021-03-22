@@ -45,3 +45,39 @@ const getList = (arr) => {
     for (let i = top; i <= bottom; i++) res.push(arr[i][left]);
   return res;
 };
+
+/**
+ * @param {number[][]} matrix
+ * @return {number[]}
+ */
+var spiralOrder = function (matrix) {
+  if (!matrix.length) return [];
+  let top = 0,
+    right = matrix[0].length - 1,
+    bottom = matrix.length - 1,
+    left = 0;
+  let returnArr = [];
+  while (top < bottom && left < right) {
+    for (let i = left; i < right; i++) {
+      returnArr.push(matrix[top][i]);
+    }
+    for (let i = top; i < bottom; i++) {
+      returnArr.push(matrix[i][right]);
+    }
+    for (let i = right; i > left; i--) {
+      returnArr.push(matrix[bottom][i]);
+    }
+    for (let i = bottom; i > top; i--) {
+      returnArr.push(matrix[i][left]);
+    }
+    right--;
+    top++;
+    bottom--;
+    left++; // 四个边界同时收缩，进入内层
+  }
+
+  if (top === bottom) for (let i = left; i <= right; i++) returnArr.push(matrix[top][i]);
+  else if (left === right) for (let i = top; i <= bottom; i++) returnArr.push(matrix[i][left]);
+
+  return returnArr;
+};
