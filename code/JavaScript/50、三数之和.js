@@ -19,25 +19,25 @@
 输出：[]
  */
 
-const getsum = (arr) => {
-  arr.sort((a, b) => a - b);
+const getsum = (nums) => {
+  nums.sort((a, b) => a - b);
   let returnArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > 0) break;
-    if (i > 0 && arr[i] == arr[i - 1]) continue; // 跳过一样的数字
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] > 0) break;
+    if (i > 0 && nums[i] == nums[i - 1]) continue; // 跳过一样的数字
     let min = i + 1;
-    let max = arr.length - 1;
+    let max = nums.length - 1;
     while (min < max) {
-      if (arr[min] + arr[max] + arr[i] === 0) {
-        returnArr.push([arr[min], arr[i], arr[max]]);
-        while (min < max && arr[min] == arr[min + 1]) min++; // 跳过一样的数字
-        while (min < max && arr[max] == arr[max - 1]) max--; // 跳过一样的数字
+      if (nums[min] + nums[max] + nums[i] === 0) {
+        returnArr.push([nums[min], nums[i], nums[max]]);
+        while (min < max && nums[min] == nums[min + 1]) min++; // 跳过一样的数字
+        while (min < max && nums[max] == nums[max - 1]) max--; // 跳过一样的数字
         min++;
         max--;
-      } else if (arr[min] + arr[max] + arr[i] < 0) {
+      } else if (nums[min] + nums[max] + nums[i] < 0) {
         // 当前的min值太小了，需要前进
         min++;
-      } else if (arr[min] + arr[max] + arr[i] > 0) {
+      } else if (nums[min] + nums[max] + nums[i] > 0) {
         // 当前 max 值太大了，需要后退
         max--;
       }

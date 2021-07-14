@@ -8,13 +8,13 @@
     输入："23"
     输出：["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
  */
-const getStr = (str) => {
-  if (!str) return [];
+const getStr = (digits) => {
+  if (!digits) return [];
   const nMap = {
     1: '',
     2: 'abc',
     3: 'def',
-    4: 'ghj',
+    4: 'ghi',
     5: 'jkl',
     6: 'mno',
     7: 'pqrs',
@@ -24,11 +24,11 @@ const getStr = (str) => {
   let retrunArr = [];
 
   const getRealStr = (realStr, dep) => {
-    if (dep > str.length - 1) {
+    if (dep > digits.length - 1) {
       retrunArr.push(realStr);
       return;
     }
-    const letters = nMap[str[dep]]; // 当前数字对应的字母
+    const letters = nMap[digits[dep]]; // 当前数字对应的字母
     for (const l of letters) {
       // 一种字母对应一个递归分支
       getRealStr(realStr + l, dep + 1); // 生成新字符串，i指针右移，递归

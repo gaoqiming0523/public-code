@@ -12,19 +12,19 @@ const isTrue = (str) => {
   if (!str.length) return true;
   if (str.length % 2 !== 0) return false;
 
-  let rightSymbols = [];
+  let right = [];
   for (let i = 0; i < str.length; i++) {
     if (str[i] == '(') {
-      rightSymbols.push(')');
+      right.push(')');
     } else if (str[i] == '{') {
-      rightSymbols.push('}');
+      right.push('}');
     } else if (str[i] == '[') {
-      rightSymbols.push(']');
-    } else if (rightSymbols.pop() != str[i]) {
+      right.push(']');
+    } else if (right.pop() != str[i]) {
       return false;
     }
   }
-  return !rightSymbols.length;
+  return !right.length;
 };
 
 console.log(isTrue('()[]{}'));
